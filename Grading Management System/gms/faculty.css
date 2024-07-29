@@ -1,0 +1,111 @@
+   /* faculty_login.php */
+   .faccon {
+    background-image: url(img/white.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.faclog {
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-left: 150px;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: rgba(255,255,255, .1);
+    border: 2px solid rgba(255,255,255,.2);
+    width: 450px;
+    color:#0e072b;
+    backdrop-filter: blur(50px);
+}
+.forgot-password,
+.create-account {
+    color: #0e4b16;
+    text-decoration: none;
+}
+.forgot-password:hover,
+.create-account:hover {
+    text-decoration: underline;
+}
+.facic{
+    font-family: 'Righteous', sans-serif;
+    font-size: 2vw;
+    width: 450px;
+    color: #0e072b;
+}
+#signin{
+    border-radius: 2rem;
+    width: 75%;
+    
+}
+
+/*Navbar Content - navfac.php */
+
+@media(max-width: 767px){
+    #prof{
+      margin-left: -250px;
+      position: absolute;
+      min-height: 100vh;
+      z-index: 1;
+   
+    }
+    #prof.active{
+      margin-left: 0;
+     }
+   }
+  
+  .dashfac{
+      display: flex;
+      min-height: 100vh;
+}
+  #prof{
+    background-color: #607d99;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+  }
+  .sidefac h5.active{
+    padding: .3rem;
+    margin: .3rem;
+  }
+  .sidefac h5 a{
+  height: 60px;
+  }
+  .sidefac-icon {
+      margin-right: 10px;
+  }
+  .navfac{
+       color: black;
+       text-decoration-line: none;
+  }
+  .navfac:hover {
+      background-color: #365572;
+      color:white;
+      text-decoration-line: none;
+  }
+  .facon{
+    flex-grow: 1;
+    padding: .4rem;
+}
+    #img{
+    width: 70px;
+}
+    .user-welcome {
+        background-color: #607d99;
+        color: #030d47;
+        padding: 1rem;
+}
+    .panel{
+        text-align: left;    
+}
+
+h2 {
+    text-align: center;
+}
